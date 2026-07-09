@@ -1,4 +1,6 @@
-// ========== Chapter 24 ========== //
+// ================== Chapter 24 ======================= 
+// ==== Strings: Finding a character at a location =====
+
 // var firstName = "Hassaan";
 // var LastName = "Mahmood";
 // var fullName = firstName + " " + LastName;
@@ -17,7 +19,11 @@
 //     }
 // }
 
-// ========== Chapter 25 ========== //
+
+
+// ================== Chapter 25 ======================= 
+// ======= Strings: Replacing characters ===============
+
 
 
 

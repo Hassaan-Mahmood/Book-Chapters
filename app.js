@@ -1,4 +1,4 @@
-// ================== Chapter 24 ======================= 
+// ================== Chapter 24 =======================
 // ==== Strings: Finding a character at a location =====
 
 // var firstName = "Hassaan";
@@ -19,15 +19,35 @@
 //     }
 // }
 
-
-
-// ================== Chapter 25 ======================= 
+// ================== Chapter 25 =======================
 // ======= Strings: Replacing characters ===============
 
+// let text = "Hello World! This is a test string.";
+// for (let i = 0; i < text.length; i++) {
+//   if (text.slice(i, i + 5) === "World") {
+//     text = text.slice(0, i) + "Universe" + text.slice(i + 5);
+//   }
+// }
+// console.log(text);
 
+// let text = "World War II was a global war that lasted from 1939 to 1945.";
+// let firstChar = text.indexOf("World War II");
+// console.log(firstChar);
+// if (firstChar !== -1) {
+//   text =
+//     text.slice(0, firstChar) +
+//     "the Second World War" +
+//     text.slice(firstChar + 12);
+// }
+// console.log(text);
 
+// let text = "World War II was a global war that lasted from 1939 to 1945.";
+// let newText = text.replace("World War II", "the Second World War");
+// console.log(newText);
 
+// text = text.replace("World War II", "the Second World War")
 
-
-
+// let text = "World War II was a global war that lasted from 1939 to 1945. World War II was a devastating conflict.";
+// let newText = text.replace(/World War II/g, "the Second World War");
+// console.log(newText);
 

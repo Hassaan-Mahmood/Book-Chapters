@@ -86,3 +86,29 @@ console.log(Math.round(4.4)); // 4
 
 // ---------- trunc() ----------
 console.log(Math.trunc(4.99)); // 4
+
+
+
+// ---------- random() ----------
+console.log(Math.random()); // Random number between 0 and 1
+
+
+// ---------- Random Integer (1-10) ----------
+console.log(Math.floor(Math.random() * 10) + 1);
+
+
+// ---------- max() ----------
+console.log(Math.max(10, 20, 30, 40)); // 40
+
+
+// ---------- min() ----------
+console.log(Math.min(10, 20, 30, 40)); // 10
+
+
+// ---------- pow() ----------
+console.log(Math.pow(2, 3)); // 8
+
+
+// ---------- Exponent Operator ----------
+console.log(2 ** 3); // 8
+

@@ -51,3 +51,38 @@
 // let newText = text.replace(/World War II/g, "the Second World War");
 // console.log(newText);
 
+
+// =============================
+// JavaScript Math Methods
+// =============================
+
+// ---------- Properties ----------
+console.log("Math.PI =", Math.PI);
+console.log("Math.E =", Math.E);
+console.log("Math.LN2 =", Math.LN2);
+console.log("Math.LN10 =", Math.LN10);
+console.log("Math.LOG2E =", Math.LOG2E);
+console.log("Math.LOG10E =", Math.LOG10E);
+console.log("Math.SQRT2 =", Math.SQRT2);
+console.log("Math.SQRT1_2 =", Math.SQRT1_2);
+
+
+// ---------- abs() ----------
+console.log(Math.abs(-20)); // 20
+
+
+// ---------- ceil() ----------
+console.log(Math.ceil(4.2)); // 5
+
+
+// ---------- floor() ----------
+console.log(Math.floor(4.9)); // 4
+
+
+// ---------- round() ----------
+console.log(Math.round(4.5)); // 5
+console.log(Math.round(4.4)); // 4
+
+
+// ---------- trunc() ----------
+console.log(Math.trunc(4.99)); // 4

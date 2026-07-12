@@ -160,6 +160,9 @@ console.log(Math.trunc(-4.9));
 
 console.log(Math.max(10, 25, 8, 40));
 
+
+
+
 // Class Code
 // var currentDate = new Date();
 // console.log(currentDate)
@@ -209,3 +212,40 @@ console.log(Math.max(10, 25, 8, 40));
 
 // setInterval(greet, 10);
 // setInterval(greet(), 1000);
+
+
+
+// ================ Date Mathod ================ //
+
+// Create a Date object
+let date = new Date();
+
+// 1. getFullYear() - Returns the year
+console.log(date.getFullYear());
+
+// 2. getMonth() - Returns the month (0 = January, 11 = December)
+console.log(date.getMonth());
+
+// 3. getDate() - Returns the day of the month (1-31)
+console.log(date.getDate());
+
+// 4. getDay() - Returns the day of the week (0 = Sunday, 6 = Saturday)
+console.log(date.getDay());
+
+// 5. getHours() - Returns the current hour (0-23)
+console.log(date.getHours());
+
+// 6. getMinutes() - Returns the current minutes (0-59)
+console.log(date.getMinutes());
+
+// 7. getSeconds() - Returns the current seconds (0-59)
+console.log(date.getSeconds());
+
+// 8. getMilliseconds() - Returns the current milliseconds (0-999)
+console.log(date.getMilliseconds());
+
+// 9. getTime() - Returns milliseconds since January 1, 1970
+console.log(date.getTime());
+
+// 10. toLocaleDateString() - Returns the date in local format
+console.log(date.toLocaleDateString());

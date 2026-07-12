@@ -128,6 +128,21 @@ console.log(2 ** 3); // 8
 // console.log(score);
 
 
+// let rounded = Math.round(score);let score = 4.7;
+
+// score = Math.round(score);
+
+// console.log(score);
+
+// console.log(Math.round(8.76));
+
+// Math.ceil(number)
+
+// Math.ceil(number)
+
+// Math.ceil(number)
+
+
 
 
 

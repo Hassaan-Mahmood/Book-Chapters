@@ -146,6 +146,18 @@ console.log(stars);
 let price = 99.01;
 console.log(Math.ceil(price));
 
+let age = 18.99;
+
+console.log(Math.floor(age));
+
+let age = 18.99;
+
+console.log(Math.floor(age));
+
+console.log(Math.trunc(-4.9));
+
+console.log(Math.trunc(-4.9));
+
 // Class Code
 // var currentDate = new Date();
 // console.log(currentDate)

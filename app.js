@@ -158,6 +158,8 @@ console.log(Math.trunc(-4.9));
 
 console.log(Math.trunc(-4.9));
 
+console.log(Math.max(10, 25, 8, 40));
+
 // Class Code
 // var currentDate = new Date();
 // console.log(currentDate)

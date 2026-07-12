@@ -249,3 +249,17 @@ console.log(date.getTime());
 
 // 10. toLocaleDateString() - Returns the date in local format
 console.log(date.toLocaleDateString());
+let date = new Date();
+
+console.log(date.toLocaleTimeString()); // Local time
+console.log(date.toLocaleString());     // Local date & time
+console.log(date.toDateString());       // Readable date
+console.log(date.toTimeString());       // Readable time
+console.log(date.toISOString());        // ISO format
+console.log(date.getUTCFullYear());     // UTC year
+console.log(date.getUTCMonth());        // UTC month
+console.log(date.getUTCDate());         // UTC day of month
+console.log(date.getTimezoneOffset());  // Timezone difference in minutes
+console.log(Date.now());                // Current timestamp in milliseconds
+
+

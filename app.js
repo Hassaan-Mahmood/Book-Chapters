@@ -287,3 +287,7 @@ console.log(now.getUTCHours());      // UTC Hours
 // Minutes
 console.log(now.getMinutes());       // 0 - 59
 console.log(now.getUTCMinutes());    // UTC Minutes
+
+// Seconds
+console.log(now.getSeconds());       // 0 - 59
+console.log(now.getUTCSeconds());    // UTC Seconds

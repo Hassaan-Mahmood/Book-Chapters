@@ -263,3 +263,10 @@ console.log(date.getTimezoneOffset());  // Timezone difference in minutes
 console.log(Date.now());                // Current timestamp in milliseconds
 
 
+
+
+
+let now = new Date();
+
+// Current Time
+console.log(now.getTime());          // Milliseconds since Jan 1, 1970

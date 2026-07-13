@@ -267,4 +267,8 @@ console.log(date.toLocaleTimeString()); // Local time
 console.log(date.toLocaleString());     // Local date & time
 // commit2 13july
 console.log(date.toDateString());       // Readable date
-console.log(date.toTimeString());    
+console.log(date.toTimeString());  
+
+// commit3 13july
+console.log(date.toLocaleTimeString()); // Local time
+console.log(date.toLocaleString());

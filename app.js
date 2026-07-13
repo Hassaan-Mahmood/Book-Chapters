@@ -339,3 +339,19 @@ console.log(now.getUTCMinutes());    // UTC Minutes
 // Seconds
 console.log(now.getSeconds());       // 0 - 59
 console.log(now.getUTCSeconds());    // UTC Seconds
+console.log("now.getUTCSeconds()");    // UTC Seconds
+// Hours
+console.log(now.getHours());         // 0 - 23
+console.log(now.getUTCHours());      // UTC Hours
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello
+// Hello

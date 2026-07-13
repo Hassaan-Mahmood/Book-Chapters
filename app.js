@@ -265,3 +265,6 @@ console.log(Date.now());                // Current timestamp in milliseconds
 // commit1 13july
 console.log(date.toLocaleTimeString()); // Local time
 console.log(date.toLocaleString());     // Local date & time
+// commit2 13july
+console.log(date.toDateString());       // Readable date
+console.log(date.toTimeString());    

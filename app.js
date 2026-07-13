@@ -283,3 +283,7 @@ console.log(now.getTime());          // Milliseconds since Jan 1, 1970
 // Hours
 console.log(now.getHours());         // 0 - 23
 console.log(now.getUTCHours());      // UTC Hours
+
+// Minutes
+console.log(now.getMinutes());       // 0 - 59
+console.log(now.getUTCMinutes());    // UTC Minutes
